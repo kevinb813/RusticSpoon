@@ -6,6 +6,10 @@ p {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 990px) {
   .hide {
     display: block;
@@ -85,3 +89,30 @@ iframe {
   left: 0;
 
 }
+
+/*font awsome social media icons*/
+.fa {
+  padding: 18px;
+  font-size: 25px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+
+/*End font awsome social media icons*/
