@@ -2,13 +2,17 @@
   text-align: center;
 }
 
+
 p {
   font-size: 20px;
+  word-spacing: 0px !important;
 }
 
 h3 {
   font-size: 20px;
 }
+
+
 
 @media only screen and (max-width: 990px) {
   .hide {
@@ -116,3 +120,55 @@ iframe {
 }
 
 /*End font awsome social media icons*/
+
+
+/*start of css for carousel*/
+
+ol.carousel-indicators {
+   position: absolute;
+   bottom: 5px;
+   margin: 0;
+   left: 0;
+   right: 0;
+   width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: 1rem;
+   height: 1rem;
+   margin: 0;
+   border-radius: 50%;
+   border: 0;
+   padding: 2px;
+   margin-right: 5px;
+   margin-left: 5px;
+}
+
+ol.carousel-indicators li {
+   background: #ffffff;
+   padding: 2px;
+}
+
+ol.carousel-indicators li.active {
+   background: #000000;
+}
+
+.carousel-inner > .item {
+   height: 500px;
+   width: auto;
+}
+/*end of css for carousel*/
+
+.item {
+  width: 350px;
+  height: 300px;
+}
+
+button {
+  background-color: black !important;
+}
+
+p.copy {
+  font-size: 15px;
+}
